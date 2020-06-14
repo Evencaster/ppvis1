@@ -9,24 +9,24 @@ public class Main {
         JFrame window = new JFrame();
         JFrame.setDefaultLookAndFeelDecorated(true);
 
-        Group1 group1 = new Group1();
-        Group2 group2 = new Group2();
-        Group3 group3 = new Group3();
-        Group4 group4 = new Group4();
-        Group5 group5 = new Group5();
+        GroupConsistsOfElementsJTextFieldJComboBoxJButton groupConsistsOfElementsJTextFieldJComboBoxJButton = new GroupConsistsOfElementsJTextFieldJComboBoxJButton();
+        GroupConsistsOfElementsJTextFieldJButton1JButton2 groupConsistsOfElementsJTextFieldJButton1JButton2 = new GroupConsistsOfElementsJTextFieldJButton1JButton2();
+        GroupConsistsOfElementsJTextFieldJButtonJRadioButtons groupConsistsOfElementsJTextFieldJButtonJRadioButtons = new GroupConsistsOfElementsJTextFieldJButtonJRadioButtons();
+        GroupConsistsOfElementsJTextFieldJButtonJCheckBoxes groupConsistsOfElementsJTextFieldJButtonJCheckBoxes = new GroupConsistsOfElementsJTextFieldJButtonJCheckBoxes();
+        GroupConsistsOfElementsJTextFieldJButtonsJTable groupConsistsOfElementsJTextFieldJButtonsJTable = new GroupConsistsOfElementsJTextFieldJButtonsJTable();
 
-        group1.setPreferredSize(new Dimension(300,100));
-        group2.setPreferredSize(new Dimension(300,100));
-        group3.setPreferredSize(new Dimension(300,100));
-        group4.setPreferredSize(new Dimension(300,100));
-        group5.setPreferredSize(new Dimension(300,350));
+        groupConsistsOfElementsJTextFieldJComboBoxJButton.setPreferredSize(new Dimension(300,100));
+        groupConsistsOfElementsJTextFieldJButton1JButton2.setPreferredSize(new Dimension(300,100));
+        groupConsistsOfElementsJTextFieldJButtonJRadioButtons.setPreferredSize(new Dimension(300,100));
+        groupConsistsOfElementsJTextFieldJButtonJCheckBoxes.setPreferredSize(new Dimension(300,100));
+        groupConsistsOfElementsJTextFieldJButtonsJTable.setPreferredSize(new Dimension(300,350));
 
         window.setLayout(new FlowLayout(FlowLayout.LEFT));
-        window.add(group1);
-        window.add(group2);
-        window.add(group3);
-        window.add(group4);
-        window.add(group5);
+        window.add(groupConsistsOfElementsJTextFieldJComboBoxJButton);
+        window.add(groupConsistsOfElementsJTextFieldJButton1JButton2);
+        window.add(groupConsistsOfElementsJTextFieldJButtonJRadioButtons);
+        window.add(groupConsistsOfElementsJTextFieldJButtonJCheckBoxes);
+        window.add(groupConsistsOfElementsJTextFieldJButtonsJTable);
 
         window.setPreferredSize(new Dimension(1300, 700));
         window.pack();
