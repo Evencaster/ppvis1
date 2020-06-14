@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-class TheGroupConsistsOfElementsJtextfieldJbuttonJradiobutton1Jradiobutton2Jradiobutton3TheUserEntersTheNameOfOneOfTheElementsOfTheJradiobuttonTypeInTheJtextfieldThenClicksTheJbuttonElementAfterWhichTheCorrespondingElementIsMarkedAndAllOtherMarksMustBeUncheckedWhenYouClickOnJbuttonAgainTheLabelFromTheAlreadySelectedJradiobuttonShouldNotDisappearIfAJradiobuttonNameIsEnteredThatDoesNotExistAnErrorDialogShouldBeDisplayed extends Group implements MouseMotionListener {
+public class Group3 extends Group implements MouseMotionListener {
     JTextField textField = new JTextField();
     CustomButton2 button = new CustomButton2("Click");
     JRadioButton radioButton1 = new JRadioButton("Radio 1");
@@ -15,7 +15,7 @@ class TheGroupConsistsOfElementsJtextfieldJbuttonJradiobutton1Jradiobutton2Jradi
     JRadioButton radioButton3 = new JRadioButton("Radio 3");
     Container radioButtons = new Container();
 
-    public TheGroupConsistsOfElementsJtextfieldJbuttonJradiobutton1Jradiobutton2Jradiobutton3TheUserEntersTheNameOfOneOfTheElementsOfTheJradiobuttonTypeInTheJtextfieldThenClicksTheJbuttonElementAfterWhichTheCorrespondingElementIsMarkedAndAllOtherMarksMustBeUncheckedWhenYouClickOnJbuttonAgainTheLabelFromTheAlreadySelectedJradiobuttonShouldNotDisappearIfAJradiobuttonNameIsEnteredThatDoesNotExistAnErrorDialogShouldBeDisplayed(){
+    public Group3(){
         JFrame.setDefaultLookAndFeelDecorated(true);
         this.setLayout(new GridLayout(3,0,5,12));
         button.setPreferredSize(new Dimension(50,50));

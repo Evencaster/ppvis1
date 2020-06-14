@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-class TheGroupConsistsOfElementsJtextfieldJbuttonJcheckbox1Jcheckbox2Jcheckbox3TheUserEntersTheNameOfOneOfTheJcheckboxElementsInTheJtextfieldThenClicksTheJbuttonElementAfterWhichTheCorrespondingElementIsMarkedIfItHasNotBeenMarkedOrTheLabelIsRemovedFromTheCorrespondingElementIfItWasMarkedLabelsOfTheRemainingTwoComponentsShouldNotChangeTheirStateIfAJcheckboxNameIsEnteredThatDoesNotExistAnErrorDialogShouldBeDisplayed extends Group implements MouseMotionListener {
+public class Group4 extends Group implements MouseMotionListener {
     JTextField textField = new JTextField();
     CustomButton2 button = new CustomButton2("Click");
     JCheckBox checkBox1 = new JCheckBox("1");
@@ -15,7 +15,7 @@ class TheGroupConsistsOfElementsJtextfieldJbuttonJcheckbox1Jcheckbox2Jcheckbox3T
     JCheckBox checkBox3 = new JCheckBox("3");
     Container checkBoxes = new Container();
 
-    public TheGroupConsistsOfElementsJtextfieldJbuttonJcheckbox1Jcheckbox2Jcheckbox3TheUserEntersTheNameOfOneOfTheJcheckboxElementsInTheJtextfieldThenClicksTheJbuttonElementAfterWhichTheCorrespondingElementIsMarkedIfItHasNotBeenMarkedOrTheLabelIsRemovedFromTheCorrespondingElementIfItWasMarkedLabelsOfTheRemainingTwoComponentsShouldNotChangeTheirStateIfAJcheckboxNameIsEnteredThatDoesNotExistAnErrorDialogShouldBeDisplayed(){
+    public Group4(){
         JFrame.setDefaultLookAndFeelDecorated(true);
         this.setLayout(new GridLayout(3,0,5,12));
         checkBoxes.setLayout(new FlowLayout());

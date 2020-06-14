@@ -6,11 +6,11 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-class TheGroupConsistsOfElementsJTextFieldJComboBoxJButtonTheUserWritesTheTextToTheJTextFieldThenClicksTheJButtonElementAfterWhichTheTextFromTheJTextFieldIsEnteredIntoTheJComboBoxElementIfTheInsertionTextAlreadyExistsInJComboBoxThenWhenAddingADialogBoxShouldBeDisplayedAboutTheImpossibilityOfAddingTheEnteredText extends Group implements MouseMotionListener {
+public class Group1 extends Group implements MouseMotionListener {
     JTextField textField = new JTextField();
     CustomButton2 button = new CustomButton2("Click");
     JComboBox<String> comboBox = new JComboBox<>();
-    public TheGroupConsistsOfElementsJTextFieldJComboBoxJButtonTheUserWritesTheTextToTheJTextFieldThenClicksTheJButtonElementAfterWhichTheTextFromTheJTextFieldIsEnteredIntoTheJComboBoxElementIfTheInsertionTextAlreadyExistsInJComboBoxThenWhenAddingADialogBoxShouldBeDisplayedAboutTheImpossibilityOfAddingTheEnteredText(){
+    public Group1(){
         JFrame.setDefaultLookAndFeelDecorated(true);
         this.setLayout(new GridLayout(0,3,5,12));
         button.setPreferredSize(new Dimension(50,50));
