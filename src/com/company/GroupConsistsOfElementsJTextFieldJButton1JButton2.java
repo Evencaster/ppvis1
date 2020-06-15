@@ -7,11 +7,11 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-public class Group2 extends Group implements MouseMotionListener {
+public class GroupConsistsOfElementsJTextFieldJButton1JButton2 extends Group implements MouseMotionListener {
     JTextField textField = new JTextField();
     CustomButton2 button1 = new CustomButton2("Click");
     CustomButton2 button2 = new CustomButton2("Swap");
-    public Group2(){
+    public GroupConsistsOfElementsJTextFieldJButton1JButton2(){
         JFrame.setDefaultLookAndFeelDecorated(true);
 
         this.setLayout(new GridLayout(3,0,5,12));

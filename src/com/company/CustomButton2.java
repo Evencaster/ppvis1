@@ -10,10 +10,7 @@ public class CustomButton2 extends JButton {
     @Override
     protected void processMouseMotionEvent(MouseEvent e) {
         super.processMouseMotionEvent(e);
-//        if(e.getX() - getX() < 5 || e.getY() - getY() < 5 || (getX() + getWidth()) - e.getX() < 5 || (getY() + getHeight()) - e.getY() < 5)
-//            unhover();
-//        else
-            hover();
+        hover();
     }
 
 

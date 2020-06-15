@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
-public class Group5 extends JPanel implements MouseMotionListener {
+public class GroupConsistsOfElementsJTextFieldJButtonsJTable extends JPanel implements MouseMotionListener {
     JTextField textField = new JTextField();
     JTable table = new JTable(1,2);
     CustomButton2 button1 = new CustomButton2("Button 1");
@@ -18,7 +18,7 @@ public class Group5 extends JPanel implements MouseMotionListener {
 
     boolean start = true;
 
-    public Group5() {
+    public GroupConsistsOfElementsJTextFieldJButtonsJTable() {
         JFrame.setDefaultLookAndFeelDecorated(true);
         this.setLayout(new GridLayout(5,0,5,12));
         buttons.setLayout(new FlowLayout());
